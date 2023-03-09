@@ -731,21 +731,22 @@
         align-items: center;
     }
     .super h1{
-        height: 156px;
-        width: 530px;
-        font-weight: 300;
+        height: 96px;
+        width: 300px;
+        font-weight: 400;
         font-size: 36px;
-        line-height: 38px;
+        line-height: 48px;
         color: #363853;
+        margin-left:40px;
 
     }
     .super h1 span{
         color: #FF7A50;
     }
     .super p{
-        height: 66px;
-        width: 513px;
-        margin: 23px 0 45px 0;
+        height: 166px;
+        width: 303px;
+        margin: 13px 0 10px 40px;
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
@@ -756,13 +757,13 @@
         background: #FF7A50;
         box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
         border-radius: 5px;
-        height: 50.4080810546875px;
-        width: 163px;
+        height: 35px;
+        width: 133px;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 15px;
         text-align: center;
         color: #FFFFFF;
+        margin-left: 40px;
 
     }
     .super-btn button:hover{
@@ -779,6 +780,7 @@
         color: #363853;
         margin-left: 30px;
     }
+
     .super-img{
         position: relative;
     }
@@ -828,21 +830,20 @@
 
     /*our start*/
     #our   {
-        padding: 60px 0;
+        padding: 20px 0;
 
 
     }
 
     #our h1{
         font-weight: 500;
-        font-size: 36px;
-        line-height: 43px;
+        font-size: 26px;
         text-align: center;
         color: #363853;
-        margin-bottom: 55px;
+        margin-bottom: 25px;
 
     }
-    .our h1 span{
+    #our h1 span{
         color: #FF7A50;
     }
     .our-block{
@@ -854,11 +855,11 @@
     .our-menu{
         display: flex;
         align-items: center;
-        width: 200px;
-        height: 70px;
+        width: 150px;
+        height: 50px;
         background: #FFFFFF;
         border-radius: 8px;
-        margin: 0 10px;
+        margin: 10px 10px;
         padding: 0 0 0 20px ;
     }
     .our-menu:hover{
@@ -883,8 +884,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 39px;
-        border-radius: 12px;
+        margin-top: 29px;
+        border-radius: 10px;
         padding-bottom: 15px;
 
     }
@@ -902,30 +903,30 @@
 
     .swiper-icon ion-icon{
         color: #FAC412;
-        font-size: 20px;
-        margin: 0 5px;
+        font-size: 8px;
+        margin: 0 ;
     }
     .swiper-block h4{
         font-weight: 400;
-        font-size: 15px;
+        font-size: 10px;
         color: #363853;
         margin: 19px 0 9px 0;
 
     }
     .swiper-block h3{
         font-weight: 500;
-        font-size: 15px;
+        font-size: 11px;
         color: #363853;
         margin-bottom: 11px;
 
     }
     .swiper-block button{
-        width: 106px;
-        height: 32px;
+        width: 56px;
+        height: 22px;
         background: #FF7A50;
         border-radius: 2px;
-        font-weight: 400;
-        font-size: 15px;
+        font-weight: 300;
+        font-size: 10px;
         color: #FFFFFF;
 
     }
@@ -938,17 +939,18 @@
 
     /*stay start*/
     .stay{
-        padding: 60px 0;
+        padding: 20px 0;
         display: flex;
         align-items: center;
     }
     .stay h2{
-        width: 384px;
+        width: 284px;
         height: 100px;
         font-weight: 500;
-        font-size: 36px;
+        font-size: 26px;
         line-height: 50px;
         color: #363853;
+        margin-left: 60px;
 
     }
     .stay h2 span{
@@ -956,35 +958,34 @@
 
     }
     .stay p{
-        width: 449px;
-        height: 103px;
-        font-weight: 400;
+        width: 249px;
+        height: 153px;
+        font-weight: 300;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 25px;
         color: #363853;
         opacity: 0.9;
-        margin: 30px 0 14px 0;
+        margin: 20px 0 9px 60px;
     }
     .stay-block {
         display: flex;
         align-items: center;
     }
     .stay-block h3{
-        margin: 13px 0 13px 26px;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
+        margin: 5px 0 13px 26px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
         color: #363853;
 
     }
     .stay-text button{
         margin-top: 39px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
+        font-weight: 300;
+        font-size: 17px;
         color: #FFFFFF;
-        width: 176px;
-        height: 58px;
+        width: 106px;
+        height: 40px;
         background: #FF7A50;
         box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
         border-radius: 30px 30px 1px 30px;
@@ -998,7 +999,7 @@
 
     /*top start*/
     #top{
-        padding: 60px 0;
+        padding: 20px 0;
     }
 
     #top button:hover{
@@ -1066,7 +1067,7 @@
 
     /*top end*/
     #download{
-        padding: 60px 0;
+        padding: 20px 0;
 
     }
     .download{
@@ -1077,26 +1078,28 @@
         margin-right: 200px;
     }
     .download h1{
-        font-weight: 500;
-        font-size: 36px;
+        font-weight: 400;
+        font-size: 26px;
         line-height: 50px;
         color: #363853;
+        margin-left: 220px;
     }
     .download   h1 span{
         color: #FF6838;
     }
     .download p{
-        width: 538px;
-        height: 94px;
+        width: 388px;
+        height: 234px;
         font-weight: 400;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 25px;
         color: #363853;
         opacity: 0.9;
-        margin: 30px 0;
+        margin: 5px 0 5px 220px ;
     }
     .add {
         display: flex;
+        margin-left: 220px;
     }
     .store img{
         margin-left: 35px;
@@ -1105,6 +1108,7 @@
         position: relative;
         width: 300px;
         height: 490px;
+        /*margin-left: 220px;*/
 
     }
     .samsung{
@@ -1157,15 +1161,16 @@
     .i66{
         position: absolute;
         margin-top: 10px;
+        left: 20px;
     }
     .i99{
         position: absolute;
-        top: 215px;
-        right: -50px;
+        top:375px;
+        right: 260px;
     }
     .what p{
-        width: 573px;
-        height: 206px;
+        width: 373px;
+        height: 386px;
         font-weight: 400;
         font-size: 20px;
         line-height: 45px;
@@ -1178,11 +1183,11 @@
         display: flex;
         align-items: center;
         margin-top: 50px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .anglina h5{
         font-weight: 500;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 24px;
         color: #FF7A50;
 
@@ -1192,11 +1197,11 @@
         font-size: 14px;
         line-height: 17px;
         color: #AAAAAA;
-        margin-top: 18px;
+        margin-top: 10px;
 
     }
     .what-icon {
-        margin-left: 300px;
+        margin-left: 140px;
     }
     .what-icon ion-icon{
         width: 50px;
@@ -1205,7 +1210,7 @@
     }
 
     .right{
-        margin-left: 40px;
+        margin-left: 10px;
     }
     .what-icon ion-icon:hover{
         color: #FF7A50;
@@ -1216,39 +1221,39 @@
     .get{
         position: relative;
         margin: 30px 0;
-        width: 1050px;
-        height: 312px;
+        width: 400px;
+        height: 212px;
         background: #FF6838;
         border-radius: 25px ;
     }
     .get h1{
         font-weight: 500;
-        font-size: 40px;
+        font-size: 21px;
         line-height: 47px;
         text-align: center;
         color: #FFFFFF;
-        padding: 59px 0 12px 0;
+        padding: 20px 0 3px 0;
 
     }
     .get p {
         font-weight: 400;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 25px;
         text-align: center;
         color: #FFFFFF;
         opacity: 0.8;
-        margin-bottom: 31px;
+        margin-bottom: 21px;
 
     }
     .get input{
-        width: 738.5px;
-        height: 78px;
+        width: 330px;
+        height: 38px;
         background: #FFFFFF;
         box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
         border-radius: 70px;
         border: none;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: 200;
+        font-size: 15px;
         line-height: 30px;
         color: #363853;
         opacity: 0.9;
@@ -1257,14 +1262,14 @@
     }
     .get button{
         position: absolute;
-        width: 191.1px;
-        height: 58.5px;
-        left: 708.4px;
-        top: 190px;
+        width: 90.1px;
+        height: 28.5px;
+        left: 288.4px;
+        top: 146px;
         background: #FF7A50;
         border-radius: 70px;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 12px;
         text-align: center;
         color: #FFFFFF;
         display: flex;
@@ -1286,13 +1291,14 @@
     /*footer srart*/
 
     #footer{
-        padding: 60px 0;
+        padding: 20px 0 0  40px;
     }
     .footer{
         display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        align-items: start;
+        /*flex-wrap: wrap;*/
         justify-content: space-around;
+        flex-direction: column;
         padding: 40px 0;
 
     }
@@ -1313,7 +1319,7 @@
     .food h5{
         font-weight: 400;
         font-size: 16px;
-        line-height: 57px;
+        line-height: 37px;
         color: rgba(0, 0, 0, 0.84);
         display: flex;
         align-items: center;
@@ -1323,7 +1329,7 @@
         margin-right: 10px;
     }
     .food-icon ion-icon{
-        font-size: 25px;
+        font-size: 20px;
         color:#363853;
         border-radius: 30px;
         border: solid 7px rgba(54, 56, 83, 0.06);
@@ -1333,43 +1339,47 @@
     .footer  h3{
         font-weight: 500;
         font-size: 18px;
-        line-height: 49px;
         letter-spacing: 0.01em;
         color: #37383D;
-        margin-right: 10px;
+        margin: 30px 0 5px 0;
+        /*margin-right: 10px;*/
 
     }
     .footer h4 a{
         font-weight: 400;
         font-size: 16px;
-        line-height: 49px;
+        line-height: 29px;
         color: #37383D;
 
     }
     .container-two{
-        width: 451px;
+        width: 100%;
         margin: 0 auto;
+
     }
 
     .tems{
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        /*flex-wrap: wrap;*/
+        align-items: start;
         justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
     }
     .tems h2{
-        margin-top: 30px;
+        margin-top: 20px;
         font-weight: 400;
         font-size: 14px;
         color: #646464;
+        margin-left: 80px;
 
     }
     .tems-icon{
-        margin-top: 30px;
+        margin-top: 15px;
 
     }
     .tems-icon a{
-        margin-right: 15px;
+        margin: 0 15px 0 0;
         font-weight: 400;
         font-size: 14px;
         line-height: 14px;
