@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+body{
+    font-family: 'Rubik' , sans-serif;
+    background:  rgba(0, 0, 0, 0.02) -2.01%;
+
+}
+body a:hover {
+    color: #FF6838;
+    text-decoration-line: underline;
+}
+a{
+    text-decoration: none;
+}
+ion-icon{
+    cursor: pointer;
+}
+/*header start*/
+#header{
+    padding: 20px 0;
+    -webkit-box-shadow: 4px 13px 8px 0 rgba(238, 84, 28, 0.2);
+    -moz-box-shadow: 4px 13px 8px 0 rgba(238, 84, 28, 0.2);
+    box-shadow: 4px 13px 8px  rgba(238, 84, 28, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #FF6838;
+
+}
+.header h1 span{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #363853;
+
+}
+.header a{
+    margin: 0 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #363853;
+
+}
+.header ion-icon{
+    margin: 0 25px;
+    font-size: 20px;
+}
+.header button{
+    height: 50.408084869384766px;
+    width: 120px;
+    background: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.header button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+}
+.hamburger-menu{
+    display: none;
+}
+.
+/*header end*/
+
+/*super sstart*/
+#super{
+    background: linear-gradient(113.59deg, rgba(239, 239, 239, 0) -2.01%, rgba(239, 239, 239, 0.1) 103.74%);
+
+}
+.super{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+.super h1{
+    height: 156px;
+    width: 530px;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+    color: #363853;
+
+}
+.super h1 span{
+    color: #FF7A50;
+}
+.super p{
+    height: 66px;
+    width: 513px;
+    margin: 23px 0 45px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+
+}
+.super-btn button{
+    background: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    height: 50.4080810546875px;
+    width: 163px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.super-btn button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+}
+.super-btn a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #363853;
+    margin-left: 30px;
+}
+.super-img{
+    position: relative;
+}
+.send{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.search{
+    position: absolute;
+    width: 40.07px;
+    height: 38.25px;
+    left: 210px;
+    top: 15px;
+    background: linear-gradient(86.08deg, #47C2FF -3.59%, rgba(99, 203, 254, 0.65) 131.2%);
+    border-radius: 6px;
+    transform: rotate(-17.42deg);
+    color: white;
+
+}
+.time{
+    position: absolute;
+    width: 40.07px;
+    height: 37.4px;
+    left: 513px;
+    top: 26px;
+    background: linear-gradient(90.26deg, #AA80FF 0.21%, rgba(160, 113, 255, 0.65) 97.38%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+    transform: rotate(-28.73deg);
+    color: white;
+}
+.alex{
+    position: absolute;
+    left: 100px;
+    top: 113px;
+}
+
+.doubble{
+    position: absolute;
+
+    left: 480px;
+    top: 240px;
+}
+
+/*double end*/
+
+/*our start*/
+#our   {
+    padding: 60px 0;
+
+
+}
+
+#our h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+text-align: center;
+    color: #363853;
+    margin-bottom: 55px;
+
+}
+.our h1 span{
+    color: #FF7A50;
+}
+.our-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+.our-menu{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 0 0 0 20px ;
+}
+.our-menu:hover{
+    background:#FF7A50 ;
+}
+.our-menu:hover>h4{
+    color: white;
+
+}
+
+
+
+.swiper {
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    border-radius: 12px;
+    padding-bottom: 15px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+.swiper-img {
+    margin: 8px 0;
+}
+
+.swiper-icon ion-icon{
+    color: #FAC412;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.swiper-block h4{
+    font-weight: 400;
+    font-size: 15px;
+    color: #363853;
+    margin: 19px 0 9px 0;
+
+}
+.swiper-block h3{
+    font-weight: 500;
+    font-size: 15px;
+    color: #363853;
+    margin-bottom: 11px;
+
+}
+.swiper-block button{
+    width: 106px;
+    height: 32px;
+    background: #FF7A50;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+.swiper-block button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+}
+/*<!--our end-->*/
+
+/*stay start*/
+.stay{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
+.stay h2{
+    width: 384px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+
+}
+.stay h2 span{
+    color: #FF7A50;
+
+}
+.stay p{
+    width: 449px;
+    height: 103px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    margin: 30px 0 14px 0;
+}
+.stay-block {
+    display: flex;
+    align-items: center;
+}
+.stay-block h3{
+    margin: 13px 0 13px 26px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+
+}
+.stay-text button{
+    margin-top: 39px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 176px;
+    height: 58px;
+    background: #FF7A50;
+    box-shadow: 0 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 30px 30px 1px 30px;
+}
+.stay-text  button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+}
+/*stay end*/
+
+/*top start*/
+#top{
+    padding: 60px 0;
+}
+
+#top button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+}
+.top h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #363853;
+
+}
+.top h1 span{
+    color: #FF7A50;
+}
+.top-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.top-img{
+    margin: 50px 10px 0 9px ;
+    width: 361px;
+    height: 417px;
+    background: #FFFFFF;
+    border-radius: 53px 5px;
+}
+.top-img h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+    margin: 22px 0 14px 20px;
+
+}
+.top-img-blosk{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.top-img-blosk ion-icon{
+    font-size: 25px;
+}
+.top-img-blosk h6{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #363853;
+    margin-left: 7px;
+}
+.top-img-blosk button{
+    width: 79px;
+    height: 33px;
+    background: #FF7A50;
+    box-shadow: 0 5px 12px rgba(255, 104, 56, 0.19);
+    border-radius: 20px 20px 0 20px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+/*top end*/
+#download{
+    padding: 60px 0;
+
+}
+.download{
+    display: flex;
+    align-items: center;
+}
+.download-text{
+    margin-right: 200px;
+}
+.download h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+.download   h1 span{
+    color: #FF6838;
+}
+.download p{
+    width: 538px;
+    height: 94px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    margin: 30px 0;
+}
+.add {
+    display: flex;
+}
+.store img{
+    margin-left: 35px;
+}
+.download-img{
+    position: relative;
+    width: 300px;
+    height: 490px;
+
+}
+.samsung{
+    width: 430px;
+    height: 470px;
+    position: absolute;
+    right: 125px;
+
+
+}
+.phone{
+    position: absolute;
+    z-index: 3  ;
+
+}
+.iphone{
+    position: absolute;
+    right: -100px;
+
+
+}
+/*<!--download end-->*/
+
+
+/*what start  */
+#what{
+    padding: 60px 0;
+}
+.what{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.what-text{
+    position: relative;
+}
+#what h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    color: #363853;
+    margin-bottom: 60px;
+
+}
+#what h1 span{
+    color: #FF7A50;
+}
+.i66{
+    position: absolute;
+    margin-top: 10px;
+}
+.i99{
+    position: absolute;
+    top: 215px;
+    right: -50px;
+}
+.what p{
+    width: 573px;
+    height: 206px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: #363853;
+    margin-left: 50px;
+
+}
+.anglina{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.anglina h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7A50;
+
+}
+.anglina h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+    margin-top: 18px;
+
+}
+.what-icon {
+    margin-left: 300px;
+}
+.what-icon ion-icon{
+    width: 50px;
+    height: 32px;
+    color: #7B7B7B;
+}
+
+.right{
+    margin-left: 40px;
+}
+.what-icon ion-icon:hover{
+    color: #FF7A50;
+}
+/*what end*/
+
+/*get start*/
+.get{
+    position: relative;
+    margin: 30px 0;
+    width: 1050px;
+    height: 312px;
+    background: #FF6838;
+    border-radius: 25px ;
+}
+.get h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 59px 0 12px 0;
+
+}
+.get p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 31px;
+
+}
+.get input{
+    width: 738.5px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    outline: none;
+    padding-left: 40px;
+}
+.get button{
+    position: absolute;
+    width: 191.1px;
+    height: 58.5px;
+    left: 708.4px;
+    top: 190px;
+    background: #FF7A50;
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.get button ion-icon{
+    margin-right: 10px;
+}
+.get button:hover{
+    background: white;
+    color: #FF7A50;
+    border: solid 1px #FF7A50;
+
+}
+/*get end*/
+
+/*footer srart*/
+
+#footer{
+    padding: 60px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+
+}
+.footer h1{
+    font-weight: 500;
+    font-size: 33px;
+    letter-spacing: 0.05em;
+    color: #363853;
+    margin-bottom: 20px;
+
+
+}
+.footer h1 span{
+
+    color: #FF6838;
+
+}
+.food h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 57px;
+    color: rgba(0, 0, 0, 0.84);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.food img{
+    margin-right: 10px;
+}
+.food-icon ion-icon{
+    font-size: 25px;
+    color:#363853;
+    border-radius: 30px;
+    border: solid 7px rgba(54, 56, 83, 0.06);
+}
+
+
+.footer  h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #37383D;
+    margin-right: 10px;
+
+}
+.footer h4 a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 49px;
+    color: #37383D;
+
+}
+.container-two{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.tems h2{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #646464;
+
+}
+.tems-icon{
+    margin-top: 30px;
+
+}
+.tems-icon a{
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+
+}
